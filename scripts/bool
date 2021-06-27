@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+#
+# Take input from User and check it to see if it matches stored value
+
+print('Please enter your name:')
+name = input()
+print('Please enter your password:')
+password = input()
+if name == 'larry':
+    print('Hello larry')
+if password == 'larry':
+    print('Access Granted')
+else:
+    print('Wrong Credentials')
+
+

@@ -1,16 +1,16 @@
 # My first program in python
-print('Please enter your password ')
+print('Please enter password')
 
-myName = input()
+myP = input()   #Need to supress display
 
 print('Checking your input now')
 
 print('The length of your password is :')
 
-print(len(myName))
+print(len(myP))
 
 print('Any random number')
 
-myAge = input()
+myR = input()
 
-print('Your number plus one is : ' + str(int(myAge) + 99) )
+print('Your number plus one is : ' + str(int(myR) + 99) )
