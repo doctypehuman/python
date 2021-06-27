@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+# While loop with break and continue
+
+name = ''
+while not name:
+    print('Enter your name:')
+    name = input()
+print('How many guests will you have ?')
+num_g = int(input())
+if num_g:
+    print('Be sure you have enough space for your guests')
+
+print('Done')
+
