@@ -7,8 +7,8 @@ if name == 'Alice':
     quit()
 else:
   print('Enter your age')
-  age = input()
-if int(age) < 12:
+  age = int(input())
+if (age) < 12:
   print('You are not Alice kiddo')
 else:
   print ('You are neither Alice nor a kid')

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+file_name=$1
+
+touch $1
+
+chmod +x $1
+
+echo "#!/usr/bin/env python3" > $1

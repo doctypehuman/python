@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+import sys
+
+print('Type exit to exit the programe')
+
+while True:
+
+  response = input()
+
+  if response == 'exit':
+
+    sys.exit()
+
+print(' You typed ' + response + '.')
